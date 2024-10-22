@@ -4,11 +4,23 @@ import { LayoutService } from 'src/app/layout/service/app.layout.service';
 
 
 @Component({
-  selector: 'app-ingeap',
-  templateUrl: './ingeap.component.html',
-  styleUrl: './ingeap.component.scss'
+  selector: 'app-salas_electricas',
+  templateUrl: './salas_electricas.component.html',
+  styleUrl: './salas_electricas.component.scss'
 })
-export class IngeapComponent implements OnInit{
+export class SalasElectricasComponent implements OnInit{
+
+    color: string = 'bluegray';
+
+    size: string = 'M';
+
+    liked: boolean = false;
+
+    images: string[] = [];
+
+    selectedImageIndex: number = 0;
+
+    quantity: number = 1;
 
     @ViewChild('parentDiv') parentDiv!: ElementRef;
 
@@ -43,30 +55,25 @@ export class IngeapComponent implements OnInit{
 
     products = [
         {
-            name: 'Experiencia',
-            detalle:'Más de 25 años de experiencia en proyectos de ingeniería y montaje eléctricos industriales.',
-            image: 'assets/ingeap/carrusel/1.jpeg'
+            name: 'SALAS ELÉCTRICAS MODULARES',
+
+            image: 'assets/salas_electricas/carrusel/1.jpg'
         },
         {
-            name: 'Solución integral',
-            detalle:'Ofrecemos una solución integral desde la ingeniería y diseño hasta el montaje. Áreas de especialización: Contamos con ingenieros y profesionales de las área eléctrica,  electrónica, mecánica y de automatización.',
-            image: 'assets/ingeap/carrusel/2.JPG'
+            name: 'AHORRO EN EL PROYECTO',
+            
+            image: 'assets/salas_electricas/carrusel/4.jpg'
         },
         {
-            name: 'Principales clientes',
-            detalle:'Trabajamos para importantes actores del país en el área industrial y de minería con faenas permanentes en la primera y segunda región de Chile',
-            image: 'assets/ingeap/carrusel/3.jpeg'
+            name: 'PERSONALIZACIÓN Y FLEXIBILIDAD',
+            
+            image: 'assets/salas_electricas/carrusel/2.jpg'
         },
         {
-        name: 'Empresa en expansión',
-        detalle:'Nos encontramos continuamente adaptando a las nuevas tecnologías y a los cambios  en el mercado. Actualmente contamos con el dominio de “Salas eléctricas Chile” y nos expandimos al área agrícola con Ingeap Agro.',
-        image: 'assets/ingeap/carrusel/4.jpeg'
+            name: 'GRAN VARIEDAD DE APLICACIONES',
+            
+            image: 'assets/salas_electricas/carrusel/3.jpg'
         },
-        {
-            name: 'Integradores oficiales de Schneider Electric',
-            detalle:'Contamos con el apoyo de la fabrica para realizar proyectos de mayor envergadura.',
-            image: 'assets/ingeap/carrusel/5.jpeg'
-        }
     ];
 
     responsiveOptions: any[] = [
@@ -91,11 +98,17 @@ export class IngeapComponent implements OnInit{
   constructor(public layoutService: LayoutService, public router: Router) { }
 
     ngOnInit(): void {
-        
+        this.images = [
+            'assets/salas_electricas/modelamiento/1.jpg',
+            'assets/salas_electricas/modelamiento/2.jpg',
+            'assets/salas_electricas/modelamiento/3.jpg',
+            'assets/salas_electricas/modelamiento/4.png',
+            'assets/salas_electricas/modelamiento/5.png',
+        ];
     }
 
     navigateToFragment(fragment: string) {
-        this.router.navigate(['/home'], { fragment });
+        this.router.navigate(['/salas_electricas'], { fragment });
     }
 
     navegarIngeapAgro(){
@@ -104,7 +117,7 @@ export class IngeapComponent implements OnInit{
 
     navegarIngeap(){
         this.router.navigate(['/home']);
-    }
+    } 
 
     navegarSalas(){
         this.router.navigate(['/salas_electricas']);

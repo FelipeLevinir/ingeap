@@ -30,7 +30,7 @@ export class HeaderComponent implements OnInit {
   }
 
   navegarSalas(){
-      this.router.navigate(['/pagina-en-construccion']);
+      this.router.navigate(['/salas_electricas']);
   }
 
   Login() {

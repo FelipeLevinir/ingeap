@@ -19,19 +19,19 @@ export class HeaderComponent {
   }
 
   navigateToFragment(fragment: string) {
-    this.router.navigate(['/home'], { fragment });
-  }
+    this.router.navigate(['/salas_electricas'], { fragment });
+}
 
-  navegarIngeapAgro(){
-      this.router.navigate(['/agro']);
-  }
+navegarIngeapAgro(){
+    this.router.navigate(['/agro']);
+}
 
-  navegarIngeap(){
-      this.router.navigate(['/home']);
-  }
+navegarIngeap(){
+    this.router.navigate(['/home']);
+} 
 
-  navegarSalas(){
-      this.router.navigate(['/salas_electricas']);
-  }
+navegarSalas(){
+    this.router.navigate(['/salas_electricas']);
+}
 
 }

@@ -104,7 +104,7 @@ export class LandingIngeapAgroComponent implements OnInit {
     }
 
     navegarSalas(){
-        this.router.navigate(['/pagina-en-construccion']);
+        this.router.navigate(['/salas_electricas']);
     }
 
     

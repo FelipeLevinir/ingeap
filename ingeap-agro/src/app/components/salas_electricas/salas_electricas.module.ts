@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IngeapRoutingModule } from './ingeap-routing.module';
+import { SalasElectricasRoutingModule } from './salas_electricas-routing.module';
 import { StyleClassModule } from 'primeng/styleclass';
 import { DividerModule } from 'primeng/divider';
 import { ChartModule } from 'primeng/chart';
 import { PanelModule } from 'primeng/panel';
 import { ButtonModule } from 'primeng/button';
 import { CarouselModule } from 'primeng/carousel';
-import { IngeapComponent } from './ingeap.component';
+import { SalasElectricasComponent } from './salas_electricas.component';
 import { InputTextModule } from 'primeng/inputtext';
 import { InputTextareaModule } from 'primeng/inputtextarea';
 import { ContactoComponent } from './contacto/contacto.component';
@@ -18,7 +18,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 @NgModule({
     imports: [
         CommonModule,
-        IngeapRoutingModule,
+        SalasElectricasRoutingModule,
         DividerModule,
         StyleClassModule,
         ChartModule,
@@ -33,6 +33,6 @@ import { SharedModule } from 'src/app/shared/shared.module';
         HeaderComponent,
         SharedModule
     ],
-    declarations: [IngeapComponent]
+    declarations: [SalasElectricasComponent]
 })
-export class IngeapLandingModule { }
+export class SalasElectricasModule { }
