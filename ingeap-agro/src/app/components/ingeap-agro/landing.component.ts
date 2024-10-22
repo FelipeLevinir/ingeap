@@ -40,24 +40,24 @@ export class LandingIngeapAgroComponent implements OnInit {
 
     products = [
         {
-            name: 'Sistema de Gestion de Riego',
-            detalle:'Conoce el estado de tus suelos en tiempo real y optimiza el uso de agua en tu campo.',
-            image: 'assets/ingeap-agro/carrusel/1.jpg'
+            name: 'Equipo multidisciplinario',
+            detalle:'Nos permite realizar proyectos de mayor complejidad que abarcan más de una especialidad.',
+            image: 'assets/ingeap-agro/carrusel/11.jpg'
         },
         {
-            name: 'Paneles fotovoltaicos',
-            detalle:'Disminuye tus costos energéticos mediante el uso de energías renovables.',
-            image: 'assets/ingeap-agro/carrusel/2.jpg'
+            name: 'Tecnología en el agro',
+            detalle:'A través de sensores IOT, sistemas PV, automatización, telemetría,  etc.',
+            image: 'assets/ingeap-agro/carrusel/12.JPG'
         },
         {
-            name: 'Automatización de riego',
-            detalle:'Moderniza tu campo, y obtiene una mejor gestión hídrica.',
-            image: 'assets/ingeap-agro/carrusel/3.jpg'
+            name: 'Partners oficiales Aranet',
+            detalle:'Medición de parámetros relevantes, todo en una misma plataforma.',
+            image: 'assets/ingeap-agro/carrusel/13.jpg'
         },
         {
-            name: 'Monitoreo de extracción de agua',
-            detalle:'Evita multas por la cantidad de agua extraída de tu pozo. (Decreto N°1238)',
-            image: 'assets/ingeap-agro/carrusel/5.png'
+            name: 'Eficiencia hídrica y energética',
+            detalle:'Servicios orientados a eficiencia que permiten un rápido retorno de la inversión.',
+            image: 'assets/ingeap-agro/carrusel/14.jpg'
         }
     ];
 
