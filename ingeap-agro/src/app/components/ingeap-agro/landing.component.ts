@@ -40,14 +40,14 @@ export class LandingIngeapAgroComponent implements OnInit {
 
     products = [
         {
-            name: 'Equipo multidisciplinario',
-            detalle:'Nos permite realizar proyectos de mayor complejidad que abarcan más de una especialidad.',
-            image: 'assets/ingeap-agro/carrusel/11.jpg'
-        },
-        {
             name: 'Tecnología en el agro',
             detalle:'A través de sensores IOT, sistemas PV, automatización, telemetría,  etc.',
             image: 'assets/ingeap-agro/carrusel/12.JPG'
+        },
+        {
+            name: 'Eficiencia hídrica y energética',
+            detalle:'Servicios orientados a eficiencia que permiten un rápido retorno de la inversión.',
+            image: 'assets/ingeap-agro/carrusel/14.jpg'
         },
         {
             name: 'Partners oficiales Aranet',
@@ -55,10 +55,10 @@ export class LandingIngeapAgroComponent implements OnInit {
             image: 'assets/ingeap-agro/carrusel/13.jpg'
         },
         {
-            name: 'Eficiencia hídrica y energética',
-            detalle:'Servicios orientados a eficiencia que permiten un rápido retorno de la inversión.',
-            image: 'assets/ingeap-agro/carrusel/14.jpg'
-        }
+            name: 'Equipo multidisciplinario',
+            detalle:'Nos permite realizar proyectos de mayor complejidad que abarcan más de una especialidad.',
+            image: 'assets/ingeap-agro/carrusel/11.jpg'
+        },
     ];
 
     topBarData = {direccion: "Ariztia 1050 Quillota", correo: "Info.agro@ingeap.cl", numeroContacto: "+569 7380 1447"};
