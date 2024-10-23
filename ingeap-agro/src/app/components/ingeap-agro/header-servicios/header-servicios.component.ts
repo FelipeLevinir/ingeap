@@ -20,6 +20,6 @@ export class HeaderServiciosComponent {
     { id: 5, src: 'assets/ingeap-agro/menu/5.png', alt: 'Imagen 5', caption: 'Telemetría', routerLink: '/agro/telemetria' },
     { id: 6, src: 'assets/ingeap-agro/menu/11.jpg', alt: 'Imagen 6', caption: 'Automatización control de heladas', routerLink: '/agro/control-heladas' },
     { id: 7, src: 'assets/ingeap-agro/menu/9.png', alt: 'Imagen 7', caption: 'Sensores Aranet', routerLink: '/agro/aranet' },
-    { id: 8, src: 'assets/ingeap-agro/menu/10.png', alt: 'Imagen 8', caption: 'Bombas de riego', routerLink: '**' }
+    { id: 8, src: 'assets/ingeap-agro/menu/10.png', alt: 'Imagen 8', caption: 'Bombas de riego' }
   ];
 }
