@@ -31,7 +31,7 @@ export class HeaderComponent {
   }
 
   navegarSalas(){
-      this.router.navigate(['/salas_electricas']);
+    window.location.href = 'https://salaselectricaschile.cl';
   }
 
 }

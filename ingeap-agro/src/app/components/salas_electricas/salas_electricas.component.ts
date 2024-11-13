@@ -120,7 +120,7 @@ export class SalasElectricasComponent implements OnInit{
     } 
 
     navegarSalas(){
-        this.router.navigate(['/salas_electricas']);
+        window.location.href = 'https://salaselectricaschile.cl';
     }
 
 }
