@@ -4,10 +4,12 @@
 
 export const environment = {
   production: false,
-  instagramAccessToken: 'IGQWRNLWlOVXcwaDI1MjRpa09oV1MwMTZAUWE9PbXJ6YWhUWW96MzdQN3dHdU8weDZAJOEg1aUI3bTdpbEk1c2dXZAkhJWTNIc0FnSXZAnZATFUY0RPMkRCMmhjQlk3MHZAPbGxidHY5ZA3VTSm1aWm5kdEFxeGlSOFJVeVEZD',
-  instagramUserId: '17841465968800993'
+  instagramAccessToken: 'IGQWRNS1NpeTMzMmt6bWxFUWVHNnpJSE9MekQ1V2h1RVYwcFJvOUhSWkZAhRVZAYQ3pHa3NnazdKdU1xaWxRTHpsTFRablRRdHhSWU5XSzlFWUdTT2NKc1d0TTZA2YWk2Tm5QdWVfMm1LaXRPYnRmekQ3ZAHhfeG1PUlkZD',
+  instagramUserId: '27095408706741634'
 };
 
+// 27095408706741634
+// 17841465968800993
 
 /*
  * For easier debugging in development mode, you can import the following file
