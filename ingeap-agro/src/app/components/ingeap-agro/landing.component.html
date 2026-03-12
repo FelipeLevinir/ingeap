@@ -72,15 +72,29 @@
         
                 <div class="grid mt-4">
                     <div class="flex justify-content-center col-12 lg:col-6 p-0 flex-order-1 lg:flex-order-0" style="border-radius:8px;">
-                        <img src="../../../assets/ingeap/foto_ingeap_agro.jpeg" class="w-11" alt="mockup mobile" style="border-radius: 0.5rem;">
+                        <p-carousel
+                            [value]="sobreNosotrosImages"
+                            [numVisible]="1"
+                            [numScroll]="1"
+                            [circular]="true"
+                            [autoplayInterval]="4000"
+                            [responsiveOptions]="sobreNosotrosResponsive"
+                            class="w-11">
+                            <ng-template pTemplate="item" let-item>
+                                <img
+                                    [src]="item.src"
+                                    style="width:100%; height:400px; object-fit:cover; border-radius:0.5rem; display:block;">
+                            </ng-template>
+                        </p-carousel>
                     </div>
-        
+                                                
                     <div class="col-12 lg:col-6 my-auto flex flex-column align-items-center text-center">
                         <h2 class="line-height-1 text-900 text-4xl font-normal">Sobre nosotros</h2>
                         <span class="text-700 text-2xl line-height-3 mx-auto" style="max-width:650px;">
-                            Ingeap Agro, es una división agrícola de la empresa Ingeap SPA, la cual cuenta con una trayectoria de 25 años en proyectos y montajes de Ingeniería eléctrica (baja y media tensión) y automatización industrial.
+                            Ingeap Agro es la división agrícola de Ingeap SpA, empresa con más de 25 años de trayectoria en proyectos y montajes de ingeniería eléctrica (baja y media tensión) y automatización industrial.
+Ingeap Agro nace como una empresa de soluciones integrales para la agricultura, orientada a identificar y resolver problemáticas productivas en los huertos mediante la integración de conocimientos eléctricos, mecánicos, agrícolas y de automatización, con el objetivo de optimizar procesos, mejorar la eficiencia operativa y apoyar la toma de decisiones en el campo.
                             <br>
-                            Ingeap Agro, nace como una empresa de soluciones integrales, la que busca identificar y resolver problemáticas agrícolas, para así mejorar el desarrollo de los huertos a través de la integración de conocimientos eléctricos, mecánicos, agrícolas y automatización.
+                            La propuesta de la empresa ha sido reconocida recientemente al obtener el 2° lugar del Desafío Emprendedor del Banco de Chile en la categoría Local, además del Premio Startup Chile, que distingue a la empresa más innovadora del programa.
                         </span>
                     </div>                
                 </div>
